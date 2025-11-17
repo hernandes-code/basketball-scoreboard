@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="blanks">
+                <h3 class="teams">HOME</h3>
+                <h1 id="score-home" class="score"> 0 </h1>
+                <div class="btn-container">
+                    <button class="btn-style" onclick="oneHome()">+1</button>
+                    <button class="btn-style" onclick="twoHome()">+2</button>
+                    <button class="btn-style" onclick="treeHome()">+3</button>
+                </div>
+            </div>
+            
+            <div id="timer-container">
+                <h2 id="timer-count">24</h2>
+            </div>
+            
+            <div class="blanks">
+                <h3 class="teams">GUEST</h3>
+                 <h1 id="score-guest"class="score"> 0 </h1>
+                <div class="btn-container">
+                    <button class="btn-style" onclick="oneGuest()">+1</button>
+                    <button class="btn-style" onclick="twoGuest()">+2</button>
+                    <button class="btn-style" onclick="treeGuest()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div>
+        <button class="btn-others id="reset-timer" onclick="resetTimer()">RESET CLOCK</button>
+        <button class="btn-others id="btn-restart" onclick="btnRestart()">NEW GAME</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

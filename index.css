@@ -1,0 +1,81 @@
+@font-face {
+    font-family: CursedTimer;
+    src: url(CursedTimerUlil-Aznm.ttf);
+    font-weight: 1,2;
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blanks {
+    text-align: center;
+}
+
+.score {
+    font-family: CursedTimer;
+    color: #F94F6D;
+    font-size: 60px;
+    position: sticky;
+    background-color: black;
+    width: 60px;
+    padding: 15px 35px 15px 35px;
+    margin: 5px auto 20px auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.teams {
+    font-size: 26px;
+    color: #EEEEEE;
+    margin: 15px 0px 0px 0px;
+}
+
+.btn-style {
+    font-family: CursedTimer;
+    background-color: #1B244A;
+    color: #9AABD8;
+    padding: 6px 7px ;
+    border: solid #9AABD8 0.5px;
+    border-radius: 3px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.btn-others {
+    background-color: #1B244A;
+    color: #9AABD8;
+    padding: 6px 7px ;
+    border: solid #9AABD8 0.5px;
+    border-radius: 3px;
+    margin: 20px auto 0px auto;
+    display: flex;
+    
+}
+
+#timer-count {
+    font-size: 20px;
+    color:#F94F6D;
+}
+
+.destacar-vencedor {
+    font-family: CursedTimer;
+    border-style: dashed;
+    color: #F94F6D;
+    font-size: 60px;
+    position: sticky;
+    background-color: black;
+    width: 60px;
+    padding: 15px 35px 15px 35px;
+    margin: 5px auto 20px auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
