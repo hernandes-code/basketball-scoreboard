@@ -78,6 +78,7 @@ function startTimer() {
 }
 
 //botão para resetar o timer
+
 function resetTimer() {
     clearInterval(decreaseTime)
     timer = 24
